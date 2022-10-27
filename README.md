@@ -2,7 +2,7 @@
 ./bootstrap.sh
 ```
 
-This will create a directory [virtualenv](https://virtualenv.pypa.io/en/latest/) `env` directory.
+This will create a [virtualenv](https://virtualenv.pypa.io/en/latest/) `env` directory.
 
 ## Running local
 
