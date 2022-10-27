@@ -34,4 +34,4 @@ http://127.0.0.1/redoc
 ```
 
 ## API Docs
-![Swagger](swagger.png)
+![Swagger](swagger_docs.png)

@@ -3,7 +3,7 @@ from fastapi import APIRouter
 from app.models.album import Album, AlbumResponseApi
 from app.services import album_service as service
 
-router = APIRouter(prefix="/albums")
+router = APIRouter(prefix="/albums", tags=["albums"])
 
 
 @router.get("/")
