@@ -1,10 +1,13 @@
+# A Sample CRUD API using [FastAPI](https://fastapi.tiangolo.com/)
+
+
+## Running locally
+
 ```
 ./bootstrap.sh
 ```
 
 This will create a [virtualenv](https://virtualenv.pypa.io/en/latest/) `env` directory.
-
-## Running local
 
 Use the `env` directory above:
 
@@ -18,6 +21,7 @@ To start the application:
 uvicorn app.main:app --reload
 ```
 Go to swagger docs `http://127.0.0.1:8000/docs`
+
 
 ## Running in Docker
 
