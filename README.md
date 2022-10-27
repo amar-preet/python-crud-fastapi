@@ -7,7 +7,7 @@
 ./bootstrap.sh
 ```
 
-This will create a [virtualenv](https://virtualenv.pypa.io/en/latest/) `env` directory.
+This will create a directory a [virtualenv](https://virtualenv.pypa.io/en/latest/) `env` directory.
 
 Use the `env` directory above:
 
@@ -32,3 +32,6 @@ docker build -t <tag-name> .
 docker run -d --name mycontainer -p 80:80 <tag-name>
 http://127.0.0.1/redoc
 ```
+
+## API Docs
+![Swagger](swagger.png)
